@@ -17,9 +17,13 @@ export default () => {
         </div>
         <div className="col-md-6">
         <nav className="my-2 my-md-0 mr-md-3">
+          <a className="p-2 text-dark" href="/">Home</a>
+          |
           <a className="p-2 text-dark" href="/sports">Sports</a>
+          <a className="p-2 text-dark" href="/fields">Fields</a>
           <a className="p-2 text-dark" href="/registration">Registration</a>
           <a className="p-2 text-dark" href="/fees">Fees</a>
+          <a className="p-2 text-dark" href="/board">Board</a>
           <a className="p-2 text-dark" href="/bylaws">Bylaws</a>
           |
           <a className="p-2 text-dark" href="/athletes">Athletes</a>

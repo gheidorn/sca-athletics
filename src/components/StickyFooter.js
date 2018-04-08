@@ -10,7 +10,7 @@ export default () => {
     return (
       <footer className="footer">
         <div className="container">
-          <span className="text-muted">Please direct all questions to the Athletic Board @ <a href="mailto:scaathleticboard@gmail.com">scaathleticboard@gmail.com</a>.</span>
+          <span className="text-muted">Please direct all questions to the SCA Athletic Board @ <a href="mailto:scaathleticboard@gmail.com">scaathleticboard@gmail.com</a>.</span>
         </div>
       </footer>
     );

@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import AthleteListPage from './pages/AthleteListPage';
 import SportsListPage from './pages/SportsListPage';
 import NewAthleteFormPage from './pages/NewAthleteFormPage';
+import RegistrationPage from './pages/RegistrationPage';
 import StickyFooter from './components/StickyFooter';
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
         <Route exact path="/athletes" component={AthleteListPage} />
         <Route exact path="/sports" component={SportsListPage} />
         <Route path="/athletes/new" component={NewAthleteFormPage} />
+        <Route path="/registration" component={RegistrationPage} />
       </div>
       <StickyFooter /></div>
     );
