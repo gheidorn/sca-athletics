@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import NewAthleteForm from './NewAthleteForm';
 
-class NewAthleteModal extends React.Component {
+class NewAthleteModal extends Component {
     render() {
       return (
         <div className="modal fade" id={this.props.modalId} tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

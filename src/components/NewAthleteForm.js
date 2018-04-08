@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class NewAthleteForm extends React.Component {
+class NewAthleteForm extends Component {
     render() {
         return (
             <form name="newAthleteForm">
