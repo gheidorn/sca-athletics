@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { Link } from 'react-router-dom';
+
 // import SportsTable from '../components/SportsTable';
 
 class RegistrationPage extends Component {
@@ -19,7 +21,7 @@ class RegistrationPage extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="/sports/football">2018 Football</a></td>
+                            <td><Link to='/sports/football'>2018 Football</Link></td>
                             <td>Wednesday, May 5th, 2018</td>
                             <td>7:00pm - 8:00pm</td>
                             <td>Kane Hall</td>

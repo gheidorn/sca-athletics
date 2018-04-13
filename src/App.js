@@ -6,7 +6,9 @@ import './App.css';
 
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
+import AthleticBoardPage from './pages/AthleticBoardPage';
 import AthleteListPage from './pages/AthleteListPage';
+import SportsPage from './pages/SportsPage';
 import SportsListPage from './pages/SportsListPage';
 import NewAthleteFormPage from './pages/NewAthleteFormPage';
 import RegistrationPage from './pages/RegistrationPage';
@@ -16,15 +18,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div className="container">
         <Header />
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/athletes" component={AthleteListPage} />
-        <Route exact path="/sports" component={SportsListPage} />
-        <Route path="/athletes/new" component={NewAthleteFormPage} />
-        <Route path="/registration" component={RegistrationPage} />
+        <div className="container-fluid">  
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/athletes" component={AthleteListPage} />
+          <Route exact path="/sports" component={SportsListPage} />
+          <Route exact path="/sports/*" component={SportsPage} />
+          <Route path="/athletes/new" component={NewAthleteFormPage} />
+          <Route path="/registration" component={RegistrationPage} />
+          <Route path="/board" component={AthleticBoardPage} />
+        </div>
+        <StickyFooter />
       </div>
-      <StickyFooter /></div>
     );
   }
 }

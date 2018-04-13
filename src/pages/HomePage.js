@@ -7,7 +7,8 @@ class HomePage extends Component {
     return (
         <div className="row">
           <div className="col-md-12">
-            <h3>HomePage</h3>
+            <h2 style={{textAlign:'center'}}>Welcome to the home of St. Catherine's of Alexandria Chargers!</h2>
+            {/* <Carousel /> */}
           </div>
         </div>
     );
