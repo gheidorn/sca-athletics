@@ -7,7 +7,7 @@ class FieldListPage extends Component {
     return (
         <div className="row">
             <div className="col-md-12">
-                <h3>Athletic Board</h3>
+                <h3>Athletic Association</h3>
                 <p>The Purpose of this organization is to provide both a competitive and
 instructional sports program as an extension of the St. Catherine of
 Alexandria academic and religious programs. The Athletic Association will
