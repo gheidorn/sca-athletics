@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom'
+import { Route } from 'react-router-dom';
 
 import logo from './logo.svg';
 import './App.css';
@@ -12,6 +12,7 @@ import SportsPage from './pages/SportsPage';
 import SportsListPage from './pages/SportsListPage';
 import NewAthleteFormPage from './pages/NewAthleteFormPage';
 import RegistrationPage from './pages/RegistrationPage';
+import ByLawsPage from './pages/ByLawsPage';
 import StickyFooter from './components/StickyFooter';
 
 class App extends Component {
@@ -19,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="container-fluid">  
+        <div className="container-fluid">
           <Route exact path="/" component={HomePage} />
           <Route exact path="/athletes" component={AthleteListPage} />
           <Route exact path="/sports" component={SportsListPage} />
@@ -27,6 +28,7 @@ class App extends Component {
           <Route path="/athletes/new" component={NewAthleteFormPage} />
           <Route path="/registration" component={RegistrationPage} />
           <Route path="/board" component={AthleticBoardPage} />
+          <Route path="/bylaws" component={ByLawsPage} />
         </div>
         <StickyFooter />
       </div>

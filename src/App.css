@@ -27,10 +27,13 @@ body {
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -53,7 +56,6 @@ body {
   text-align: center;
 }
 
-
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
@@ -69,4 +71,45 @@ body > .container {
 
 code {
   font-size: 80%;
+}
+
+/* ByLaws */
+.bylawsHeading {
+  text-align: center;
+}
+
+.bylawsSubheading {
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+}
+
+.bylawsArticleHeading {
+  text-align: right;
+}
+
+.bylawsArticleSubheading {
+}
+
+.bylaws h5 {
+}
+
+@media screen and (max-width: 480px) {
+  .bylawsArticleHeading {
+    border-bottom: 3px solid black;
+    text-align: left;
+  }
+
+  .bylawsArticleSubheading {
+    font-size: large;
+  }
+
+  .bylaws h5 {
+    font-size: medium;
+    font-style: italic;
+  }
+  .footer {
+    bottom: auto;
+    height: 120px;
+  }
 }
