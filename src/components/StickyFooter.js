@@ -1,10 +1,4 @@
-import React, { Component } from 'react';
-
-import NewAthleteModal from './NewAthleteModal';
-
-const faStyle = { fontSize: '2em', color: 'Tomato' };
-const fallin = { display: 'inline-block' };
-const nudge = { marginRight: '10px' };
+import React from 'react';
 
 export default () => {
   return (
