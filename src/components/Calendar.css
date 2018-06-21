@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.event {
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  font-family: roboto;
+  justify-content: space-evenly;
+}
+
+.date {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100px;
+}
+
+.name {
+  padding: 10px 20px;
+  width: 400px;
+}
+
+.type {
+  color: black;
+  font-style: italic;
+  padding: 10px 20px;
+  text-align: right;
+  width: 250px;
+}

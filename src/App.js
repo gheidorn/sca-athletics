@@ -13,6 +13,7 @@ import NewAthleteFormPage from './pages/NewAthleteFormPage';
 import RegistrationPage from './pages/RegistrationPage';
 import ByLawsPage from './pages/ByLawsPage';
 import StickyFooter from './components/StickyFooter';
+import CalendarPage from './pages/CalendarPage';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <Header />
         <div className="container-fluid">
           <Route exact path="/" component={HomePage} />
+          <Route exact path="/calendar" component={CalendarPage} />
           <Route exact path="/athletes" component={AthleteListPage} />
           <Route exact path="/sports" component={SportsListPage} />
           <Route exact path="/sports/*" component={SportsPage} />

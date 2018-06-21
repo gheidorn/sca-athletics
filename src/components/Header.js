@@ -29,8 +29,8 @@ export default () => {
       <div className="navbar-collapse collapse" id="navbarsExample03">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <Link to="/" className="nav-link">
-              Home
+            <Link to="/calendar" className="nav-link">
+              Calendar
             </Link>
           </li>
           <li className="nav-item">

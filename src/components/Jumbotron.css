@@ -19,7 +19,9 @@
 
 .sca-jumbotron-title {
   background-color: black;
-  border-radius: 5;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  -border-radius: 5;
   color: #fff;
   display: inline;
   padding: 0.5rem;
