@@ -1,19 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+h4 {
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  margin: 0px 0px;
+  padding: 30px 5px 10px;
+}
 
 .event {
   border-bottom: 1px solid #eaeaea;
   display: flex;
   font-family: roboto;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  line-height: 50px;
 }
 
 .date {
-  background-color: black;
+  background-color: firebrick;
   color: white;
+  font-size: x-large;
   font-weight: bold;
   padding: 10px 20px;
   text-align: center;
-  width: 100px;
+  width: 80px;
 }
 
 .name {
@@ -26,5 +35,5 @@
   font-style: italic;
   padding: 10px 20px;
   text-align: right;
-  width: 250px;
+  width: 300px;
 }
