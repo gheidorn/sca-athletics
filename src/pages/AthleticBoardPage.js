@@ -29,7 +29,21 @@ class FieldListPage extends Component {
                 <td>President</td>
                 <td>Greg Heidorn</td>
                 <td>2nd</td>
-                <td>greg.heidorn@gmail.com</td>
+                <td>
+                  <a href="mailto:greg.heidorn@gmail.com">greg.heidorn@gmail.com</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Vice President &amp; Boys Basketball Coordinator</td>
+                <td>John Donahue</td>
+                <td>3rd</td>
+                <td />
+              </tr>
+              <tr>
+                <td>Secretary &amp; Cheerleading Coordinator</td>
+                <td>Tina Knies</td>
+                <td>1st</td>
+                <td />
               </tr>
               <tr>
                 <td>Football Coordinator</td>
@@ -44,23 +58,11 @@ class FieldListPage extends Component {
                 <td />
               </tr>
               <tr>
-                <td>Secretary &amp; Cheerleading Coordinator</td>
-                <td>Tina Knies</td>
-                <td>1st</td>
-                <td />
-              </tr>
-              <tr>
-                <td>Vice President &amp; Boys Basketball</td>
-                <td>John Donahue</td>
-                <td>3rd</td>
-                <td />
-              </tr>
-              <tr>
                 <td>Boys Basketball</td>
                 <td>Kevin Cremins</td>
                 <td>2nd</td>
                 <td>
-                  <a href="kcremins@hotmail.com">kcremins@hotmail.com</a>
+                  <a href="mailto:kcremins@hotmail.com">kcremins@hotmail.com</a>
                 </td>
               </tr>
               <tr>
@@ -115,7 +117,8 @@ class FieldListPage extends Component {
           </table>
           <hr />
           <h4>Supporting Positions</h4>
-          <p>Supporting positions are Board appointed positions that may have stipends as part of the role.</p>
+          <br />
+          <p>Supporting positions are Board appointed positions.</p>
           <table className="table">
             <thead>
               <tr>
