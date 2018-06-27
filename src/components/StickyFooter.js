@@ -6,7 +6,7 @@ export default () => {
       <div className="container">
         <span className="text-muted">
           Please direct all questions to the SCA Athletic Association @{' '}
-          <a href="mailto:sca-aa@gmail.com">sca-aa@gmail.com</a>.
+          <a href="mailto:greg.heidorn@gmail.com">greg.heidorn@gmail.com</a>.
         </span>
       </div>
     </footer>
