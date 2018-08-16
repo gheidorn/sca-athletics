@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const faStyle = { fontSize: "2em", color: "red", marginRight: "20px" };
-const nudge = { marginRight: "10px" };
+const faStyle = { fontSize: '2em', color: 'red', marginRight: '20px' };
+const nudge = { marginRight: '10px' };
 
 export default () => {
   return (
@@ -34,7 +34,7 @@ export default () => {
                 Calendar
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/registration" className="nav-link">
                 Registration
               </Link>
@@ -73,7 +73,7 @@ export default () => {
                   Soccer
                 </Link>
               </div>
-            </li>
+            </li> */}
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -86,14 +86,14 @@ export default () => {
                 Information
               </a>
               <div className="dropdown-menu" aria-labelledby="dropdown03">
-                <Link to="/board" className="dropdown-item">
-                  Athletic Board
-                </Link>
                 <Link to="/fees" className="dropdown-item">
                   Fees
                 </Link>
+                <Link to="/board" className="dropdown-item">
+                  Athletic Association Board
+                </Link>
                 <Link to="/bylaws" className="dropdown-item">
-                  Bylaws
+                  Athletic Association Bylaws
                 </Link>
               </div>
             </li>

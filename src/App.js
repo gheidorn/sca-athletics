@@ -1,19 +1,20 @@
-import React, { Component } from "react";
-import { Route } from "react-router-dom";
+import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 
-import "./App.css";
+import './App.css';
 
-import Header from "./components/Header";
-import HomePage from "./pages/HomePage";
-import AthleticBoardPage from "./pages/AthleticBoardPage";
-import AthleteListPage from "./pages/AthleteListPage";
-import SportsPage from "./pages/SportsPage";
-import SportsListPage from "./pages/SportsListPage";
-import NewAthleteFormPage from "./pages/NewAthleteFormPage";
-import RegistrationPage from "./pages/RegistrationPage";
-import ByLawsPage from "./pages/ByLawsPage";
-import StickyFooter from "./components/StickyFooter";
-import CalendarPage from "./pages/CalendarPage";
+import Header from './components/Header';
+import HomePage from './pages/HomePage';
+import AthleticBoardPage from './pages/AthleticBoardPage';
+import AthleteListPage from './pages/AthleteListPage';
+import SportsPage from './pages/SportsPage';
+import SportsListPage from './pages/SportsListPage';
+import NewAthleteFormPage from './pages/NewAthleteFormPage';
+import RegistrationPage from './pages/RegistrationPage';
+import ByLawsPage from './pages/ByLawsPage';
+import StickyFooter from './components/StickyFooter';
+import CalendarPage from './pages/CalendarPage';
+import FeesPage from './pages/FeesPage';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
           <Route path="/registration" component={RegistrationPage} />
           <Route path="/board" component={AthleticBoardPage} />
           <Route path="/bylaws" component={ByLawsPage} />
+          <Route path="/fees" component={FeesPage} />
         </div>
         <StickyFooter />
       </div>
