@@ -77,7 +77,7 @@ export default () => {
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
-                href="http://example.com"
+                href="https://www.sca-athletics.org/"
                 id="dropdown03"
                 data-toggle="dropdown"
                 aria-haspopup="true"

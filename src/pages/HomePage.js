@@ -9,7 +9,7 @@ class HomePage extends Component {
         <div className="col-md-12">
           {/* <h2 style={{textAlign:'center'}}>Welcome to the home of St. Catherine's of Alexandria Chargers!</h2> */}
           <Jumbotron />
-          <div className="row mb-2">
+          {/* <div className="row mb-2">
             <div className="col-md-6">
               <div className="card flex-md-row mb-4 box-shadow h-md-250">
                 <div className="card-body d-flex flex-column align-items-start">
@@ -60,7 +60,7 @@ class HomePage extends Component {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

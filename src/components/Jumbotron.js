@@ -59,9 +59,9 @@ class Jumbotron extends Component {
           <h1 className="display-6 font-italic sca-jumbotron-title">{this.state.content.fields.title}</h1>
           <p className="lead my-3">{this.state.content.fields.blurb}</p>
           <p className="lead mb-0">
-            <a href="/" className="text-white font-weight-bold">
+            {/* <a href="/" className="text-white font-weight-bold">
               Continue reading...
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
