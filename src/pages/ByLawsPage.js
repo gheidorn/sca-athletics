@@ -3,22 +3,22 @@ import { Link } from 'react-router-dom';
 
 // import SportsTable from '../components/SportsTable';
 
-const pathToTitleMappings = {
-  '/sports/football': 'Football',
-  '/sports/cheerleading': 'Cheerleading',
-  '/sports/girls-basketball': 'Girls Basketball',
-  '/sports/boys-basketball': 'Boys Basketball',
-  '/sports/girls-volleyball': 'Girls Volleyball',
-  '/sports/boys-volleyball': 'Boys Volleyball',
-  '/sports/soccer': 'Soccer'
-};
+// const pathToTitleMappings = {
+//   '/sports/football': 'Football',
+//   '/sports/cheerleading': 'Cheerleading',
+//   '/sports/girls-basketball': 'Girls Basketball',
+//   '/sports/boys-basketball': 'Boys Basketball',
+//   '/sports/girls-volleyball': 'Girls Volleyball',
+//   '/sports/boys-volleyball': 'Boys Volleyball',
+//   '/sports/soccer': 'Soccer'
+// };
 
-const byLawPageHeader = {
-  textAlign: 'center'
-};
-const byLawSectionHeader = {
-  textAlign: 'right'
-};
+// const byLawPageHeader = {
+//   textAlign: 'center'
+// };
+// const byLawSectionHeader = {
+//   textAlign: 'right'
+// };
 
 class ByLawsPage extends Component {
   render() {

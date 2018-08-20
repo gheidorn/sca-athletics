@@ -34,6 +34,11 @@ export default () => {
                 Calendar
               </Link>
             </li>
+            <li className="nav-item active">
+              <Link to="/schedule" className="nav-link">
+                Sports Schedules
+              </Link>
+            </li>
             {/* <li className="nav-item">
               <Link to="/registration" className="nav-link">
                 Registration

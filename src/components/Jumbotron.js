@@ -8,7 +8,7 @@ const contentful = createClient({
   accessToken: 'f0b859cab1edcb57da5cb76ef73576816b2f866f6cc5563bd4951ced843e6e58'
 });
 
-const JUMBOTRON_ENTRY_ID = '3IqnMv5odaMQegYyYAGYWe';
+// const JUMBOTRON_ENTRY_ID = '3IqnMv5odaMQegYyYAGYWe';
 
 class Jumbotron extends Component {
   constructor() {

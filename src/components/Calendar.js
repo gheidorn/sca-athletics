@@ -1,65 +1,65 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import "./Calendar.css";
+import './Calendar.css';
 
 const schoolCalendar = [
+  // {
+  //   name: 'July',
+  //   month: 7,
+  //   year: 2018
+  // },
   {
-    name: "July",
-    month: 7,
-    year: 2018
-  },
-  {
-    name: "August",
+    name: 'August',
     month: 8,
     year: 2018
   },
   {
-    name: "September",
+    name: 'September',
     month: 9,
     year: 2018
   },
   {
-    name: "October",
+    name: 'October',
     month: 10,
     year: 2018
   },
   {
-    name: "November",
+    name: 'November',
     month: 11,
     year: 2018
   },
   {
-    name: "December",
+    name: 'December',
     month: 12,
     year: 2018
   },
   {
-    name: "January",
+    name: 'January',
     month: 1,
     year: 2019
   },
   {
-    name: "February",
+    name: 'February',
     month: 2,
     year: 2019
   },
   {
-    name: "March",
+    name: 'March',
     month: 3,
     year: 2019
   },
   {
-    name: "April",
+    name: 'April',
     month: 4,
     year: 2019
   },
   {
-    name: "May",
+    name: 'May',
     month: 5,
     year: 2019
   },
   {
-    name: "June",
+    name: 'June',
     month: 6,
     year: 2019
   }
@@ -67,23 +67,35 @@ const schoolCalendar = [
 
 class Calendar extends Component {
   componentWillMount() {
-    // sort the events by month, then day
     this.props.events.sort((a, b) => {
-      if (a.year > b.year) {
-        return 1;
-      }
-      if (a.year === b.year && a.month > b.month) {
-        return 1;
-      }
-      if (a.year === b.year && a.month === b.month && a.day > b.day) {
-        return 1;
-      }
-      if (a.year === b.year && a.month === b.month && a.day < b.day) {
-        return -1;
-      }
       if (a.year < b.year) {
         return -1;
       }
+
+      if (a.year > b.year) {
+        return 1;
+      }
+
+      // years are equal, look at month
+
+      if (a.month < b.month) {
+        return -1;
+      }
+
+      if (a.month > b.month) {
+        return 1;
+      }
+
+      // years and months are equal, look at day
+
+      if (a.day < b.day) {
+        return -1;
+      }
+
+      if (a.day > b.day) {
+        return 1;
+      }
+
       return 0;
     });
   }
@@ -95,19 +107,15 @@ class Calendar extends Component {
 
     let eventMarkup = [];
     for (var i = 0; i < schoolCalendar.length; i++) {
+      eventMarkup.push(<h4 key={schoolCalendar[i].name}>{schoolCalendar[i].name}</h4>);
       eventMarkup.push(
-        <h4 key={schoolCalendar[i].name}>{schoolCalendar[i].name}</h4>
-      );
-      eventMarkup.push(
-        this.props.events
-          .filter(monthFilter)
-          .map(({ name, date, month, day, type }) => (
-            <div className="event" key={name}>
-              <div className="date">{day}</div>
-              <div className="name">{name}</div>
-              <div className="type">{type}</div>
-            </div>
-          ))
+        this.props.events.filter(monthFilter).map(({ name, date, month, day, type }) => (
+          <div className="event" key={name}>
+            <div className="date">{day}</div>
+            <div className="name">{name}</div>
+            <div className="type">{type}</div>
+          </div>
+        ))
       );
     }
 
