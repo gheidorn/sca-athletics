@@ -91,6 +91,12 @@ export default () => {
                 Information
               </a>
               <div className="dropdown-menu" aria-labelledby="dropdown03">
+                <Link to="/volunteering" className="dropdown-item">
+                  Volunteering
+                </Link>
+                <Link to="/booster-raffle" className="dropdown-item">
+                  Booster Raffle
+                </Link>
                 <Link to="/fees" className="dropdown-item">
                   Fees
                 </Link>

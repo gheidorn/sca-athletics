@@ -40,7 +40,6 @@ class Jumbotron extends Component {
         </div>
       );
     }
-    console.log(this.state.content);
 
     return (
       <div className="sca-jumbotron text-white rounded">

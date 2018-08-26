@@ -16,6 +16,8 @@ import StickyFooter from './components/StickyFooter';
 import CalendarPage from './pages/CalendarPage';
 import FeesPage from './pages/FeesPage';
 import SportsSchedulePage from './pages/SportsSchedulePage';
+import VolunteeringPage from './pages/VolunteeringPage';
+import BoosterRafflePage from './pages/BoosterRafflePage';
 
 class App extends Component {
   render() {
@@ -34,6 +36,8 @@ class App extends Component {
           <Route path="/bylaws" component={ByLawsPage} />
           <Route path="/fees" component={FeesPage} />
           <Route path="/schedule" component={SportsSchedulePage} />
+          <Route path="/volunteering" component={VolunteeringPage} />
+          <Route path="/booster-raffle" component={BoosterRafflePage} />
         </div>
         <StickyFooter />
       </div>
