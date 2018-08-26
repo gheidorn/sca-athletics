@@ -8,7 +8,9 @@ class SportsSchedulePage extends Component {
       <div className="row">
         <div className="col-md-12">
           <h3>Sports Schedules</h3>
-          <a href="/files/2018-SCA-Football-Schedule.pdf">2018 SCA Football Schedule</a>
+          <a href="https://www.dropbox.com/s/eq7fdomr8eav9ww/2018-SCA-Football-Schedule-ALL.pdf?dl=0">
+            2018 SCA Football Schedule - All Teams
+          </a>
         </div>
       </div>
     );
