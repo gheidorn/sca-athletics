@@ -40,12 +40,11 @@ export default () => {
               </Link>
             </li>
             <li className="nav-item active">
-              <Link
-                to="https://www.dropbox.com/s/xceu6mkrtobnsxw/Sports_Registration_Form.pdf?dl=0"
+              <a href="https://www.dropbox.com/s/xceu6mkrtobnsxw/Sports_Registration_Form.pdf?dl=0"
                 className="nav-link"
               >
                 Registration Form
-              </Link>
+              </a>
             </li>
             {/* <li className="nav-item">
               <Link to="/registration" className="nav-link">
