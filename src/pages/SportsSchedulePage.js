@@ -19,6 +19,11 @@ class SportsSchedulePage extends Component {
                 2018 SCA Football Rosters
               </a>
             </li>
+            <li>
+              <a href="https://www.dropbox.com/s/gupu9rkancf5t7w/2018%20SCA%20Junior%20Basketball%20Schedule.pdf?dl=0">
+                2018 Junior Basketball Schedule
+              </a>
+            </li>
           </ul>
         </div>
       </div>
