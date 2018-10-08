@@ -24,6 +24,11 @@ class SportsSchedulePage extends Component {
                 2018 Junior Basketball Schedule
               </a>
             </li>
+            <li>
+              <a href="https://www.dropbox.com/s/qxkso331w7rnhs3/ConcussionMgmtPlan.pdf?dl=0">
+                Concussion Management Plan
+              </a>
+            </li>
           </ul>
         </div>
       </div>
