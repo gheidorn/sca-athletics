@@ -38,6 +38,7 @@ class App extends Component {
           <Route path="/schedule" component={SportsSchedulePage} />
           <Route path="/volunteering" component={VolunteeringPage} />
           <Route path="/booster-raffle" component={BoosterRafflePage} />
+          <Route path="/football-championship" component={FootballChampionshipPage} />
         </div>
         <StickyFooter />
       </div>
