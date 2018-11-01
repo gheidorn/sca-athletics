@@ -18,6 +18,7 @@ import FeesPage from './pages/FeesPage';
 import SportsSchedulePage from './pages/SportsSchedulePage';
 import VolunteeringPage from './pages/VolunteeringPage';
 import BoosterRafflePage from './pages/BoosterRafflePage';
+import FootballChampionshipPage from './pages/FootballChampionshipPage';
 
 class App extends Component {
   render() {
